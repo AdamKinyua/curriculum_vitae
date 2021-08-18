@@ -1,0 +1,16 @@
+body {
+  font-family: "Courier New", monospace;
+  background-color: #F0FFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
