@@ -1,0 +1,8 @@
+CENTERING 
+
+1. text-align: center ;
+				centers everything in parent container that does not have margin set 
+2. If we have a block element and has a width set; then you'll have to center it using:
+		margin: 0 auto 0 auto;
+		or
+		margim: 0 auto;
