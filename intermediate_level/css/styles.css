@@ -1,11 +1,37 @@
+
+/**/
+
 h1 {
+  color: black;
   margin-top: 0;
+}
+
+p {
+  color: black;
 }
 
 body {
   margin: 0;
 }
 
-div {
+
+
+
+/* CLASSES*/
+
+.top-container {
   background-color: #FCFFE7;
+  
+}
+
+.middle-container {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+.bottom-container {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
 }
