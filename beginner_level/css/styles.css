@@ -1,0 +1,58 @@
+/*TAG SELECTROS*/
+body {
+  font-family: "Courier New", monospace;
+  background-color: #F0FFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+img: hover {
+  background-color: gold;
+}
+/*
+SPECIFICITY: CLASS
+*/
+
+/*
+Class selectors; you have to use a
+Can be used for multiple instances
+It doesns't really matter
+You can use the same class for multiple elements
+You can have more than one class for a particular element
+*/
+
+.profile {
+  background-color: none;
+
+}
+
+.profile_2 {
+  background-color: none;
+
+}
+
+.circular_image {
+  border-radius: 100%; /*This makes the image circular*/
+}
+
+/*
+SPECIFICTY: ID
+ID Selectors
+can only have one instance
+You cannot you id for multiple instances such as h1 & p or h2 or whatever
+you cannot have more than one id for a particular elements
+*/
+
+#heading {
+  color: black;
+}
