@@ -1,12 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\beginner_level",
-    "\\intermediate_level",
+    "\\bootstrap_installation",
     "\\intermediate_level\\css",
     "\\intermediate_level\\images",
     "\\intermediate_level\\resources"
   ],
-  "SelectedNode": "\\beginner_level\\profile.jpg",
+  "SelectedNode": "\\bootstrap_installation\\index.html",
   "PreviewInSolutionExplorer": false
 }
