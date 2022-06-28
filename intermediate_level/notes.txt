@@ -5,4 +5,4 @@ CENTERING
 2. If we have a block element and has a width set; then you'll have to center it using:
 		margin: 0 auto 0 auto;
 		or
-		margim: 0 auto;
+		margin: 0 auto;   ####centers

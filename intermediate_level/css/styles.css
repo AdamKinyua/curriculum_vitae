@@ -10,16 +10,36 @@ h1 {
 
 h2 {
     color: #66BFBF;
-    font-weight: normal;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 2.0rem;
 }
 
 body {
   margin: 0;
   text-align: center;
+  color: #40514E;
 }
 
 h3, a {
     color: #11999E;
+    font-family: 'Courier Prime', monospace;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 7px;
+    width: 3%;
+}
+
+p {
+    color: #40514E;
+    text-align: center;
+    padding: 20px;
+    line-height: 2;
 }
 
 
@@ -31,7 +51,7 @@ h3, a {
 
 .intro-h1 {
     font-family: 'Sacramento', cursive;
-    margin-top: 50px auto 0 auto;
+    margin-top: 3.125rem auto 0 auto;
     font-weight: bolder;
     font-size: 5.625rem;
 }
@@ -43,23 +63,37 @@ h3, a {
     font-size: 2.5rem;
 }
 
-/** Clouds and Mountain & Profile*/
+.intro-paragraph {
+    width: 30%;
+    margin: auto;
+    padding: 1.875rem 0 3.125rem;
+}
 
+
+.my-skills {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+}
+
+.hobbies {
+    margin: auto;
+    text-align: center;
+}
+/** Clouds and Mountain & Profile*/
 .cloud-1 {
     position: absolute;
-    right: 350px;
-    top: 130px;
+    right: 4rem;
+    top: 6rem;
 }
 
 .cloud-2 {
     position: absolute;
-    left: 400px;
-    bottom: 370px;
-
+    left: 16rem;
+    bottom: 20rem;
 }
 
 .face-image {
-    width: 25%;
+    width: 10%;
 }
 
 .image-width {
@@ -85,21 +119,60 @@ h3, a {
 }
 
 .middle-container {
-
+    margin: 100px 0 100px 0;
 }
 
 .bottom-container {
- 
+ background-color: #66BFBF;
+ padding-top: 1.875rem;
 }
 
 
 .skill-row {
     width: 50%;
-    margin: 100px auto 100px auto;
-    line-height: 2;
+    margin: 1.875rem auto 1.875rem auto;
     text-align: left;
     
 }
+
+.contact-message {
+    width: 30%;
+    margin: auto;
+    padding-bottom: 1.875rem;
+}
+
+.footer-link {
+    padding: 0.75rem;
+    margin: 0.75rem;
+}
+
+.myButton {
+    box-shadow: inset 6px 4px 23px -4px #ffffff;
+    background: linear-gradient(to bottom, #57e3c3 5%, #f7eeee 100%);
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 6px 31px;
+    text-decoration: none;
+    text-shadow: 0px 2px 0px #ffffff;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+    background-color: #e9e9e9;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+      
 
 
 
