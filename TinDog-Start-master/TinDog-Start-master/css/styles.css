@@ -1,0 +1,18 @@
+#title {
+  background-color: red;
+}
+
+.topic {
+  font-family: 'Montserrat-Black';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+.container-fluid {
+  padding: 3% 15%;
+}
