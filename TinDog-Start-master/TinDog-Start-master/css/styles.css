@@ -1,11 +1,13 @@
 #title {
   background-color: red;
+  color: #fff;
 }
 
 .topic {
   font-family: 'Montserrat-Black';
   font-size: 3rem;
   line-height: 1.5;
+  font-color: white;
 }
 
 /*
@@ -15,4 +17,21 @@ font-family: 'Ubuntu', sans-serif;
 
 .container-fluid {
   padding: 3% 15%;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+nav {
+  color: #fff;
+}
+
+.nav-bar-menu {
+  color: #fff;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25);
 }
